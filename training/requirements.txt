@@ -1,0 +1,11 @@
+torch
+torchvision
+onnx
+onnxscript
+onnxruntime
+huggingface_hub
+pyarrow
+pillow
+numpy
+transformers
+certifi

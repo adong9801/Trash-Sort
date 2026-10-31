@@ -41,3 +41,9 @@ example
 # generated native folders
 /ios
 /android
+
+# model training (downloaded photos and Python environment)
+training/.venv/
+training/data/
+training/__pycache__/
+training/train.log

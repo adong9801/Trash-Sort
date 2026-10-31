@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "trashsort",
+    "name": "TrashSort",
     "slug": "trashsort",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -20,11 +20,18 @@
       "predictiveBackGestureEnabled": false
     },
     "web": {
-      "output": "server",
+      "output": "single",
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
       "expo-router",
+      [
+        "expo-image-picker",
+        {
+          "cameraPermission": "TrashSort uses your camera to photograph items so it can tell you which bin they go in.",
+          "photosPermission": "TrashSort reads the photo you pick so it can tell you which bin the item goes in."
+        }
+      ],
       [
         "expo-splash-screen",
         {
